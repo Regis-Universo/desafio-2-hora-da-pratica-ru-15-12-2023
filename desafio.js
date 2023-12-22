@@ -15,11 +15,11 @@ if (diaDaSemana == 'Sábado' || diaDaSemana =='Domingo')  {
 let numeroDigitado = prompt('Digite um número para verificar se ele é POSITIVO ou NEGATIVO:');
 
 if (numeroDigitado > 0) {
-    alert('Esse número é POSITIVO!!!');
+    alert(`O número ${numeroDigitado} é POSITIVO!!!`);
 } else if (numeroDigitado < 0) {
-    alert('Esse número é NEGATIVO!!!');
+    alert(`O número ${numeroDigitado} é NEGATIVO!!!`);
 } else {
-    alert('Esse número é o 0 (ZERO)');
+    alert(`O número ${numeroDigitado} é um NÚMERO NEUTRO`);
 }
 
 // 03. Crie um sistema de pontuação para um jogo. Se a pontuação for maior ou igual a 100, mostre "Parabéns, você venceu!". Caso contrário, mostre "Tente novamente para ganhar.".
